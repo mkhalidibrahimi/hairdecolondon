@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hair Deco London</title>
+    <!-- Load Playfair Display for an elegant style -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Logo */
+        .logo {
+            height: 60px;
+        }
+
+        /* Header */
+        header {
+            padding: 15px 0;
+        }
+
+        /* Main Section */
+        #intro {
+            background-color: rgb(228, 209, 189); /* Background color for the main section */
+        }
+
+        /* Card Style */
+        .card {
+            background-color: #d9ab9d; /* Darker pink for better contrast */
+            color: white;
+            max-width: 1200px; /* Original card width for larger screens */
+            border: none;
+            border-radius: 35px; /* More rounded corners */
+            padding: 40px;
+            margin: auto; /* Center the card */
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Added shadow for depth */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center; /* Ensure text is centered */
+            position: relative;
+        }
+
+        /* Quotation Text Styling */
+        .card h1 {
+            font-family: 'Playfair Display', serif; /* Elegant fashion font */
+            font-size: 2.25em; /* Larger text */
+            font-weight: 700;
+            line-height: 1.4;
+            text-align: justify; /* Justified text */
+            padding: 0 15px; /* Add padding to ensure text doesn't touch the card edges */
+            margin: 0 auto;
+            max-width: 100%;
+            position: relative;
+        }
+
+        /* Media Query for Mobile Devices */
+        @media (max-width: 768px) {
+            .card {
+                margin: 20px; /* Add margin on mobile */
+                padding: 30px; /* Adjust padding for mobile */
+                background-size: cover; /* Keep any background image properly sized */
+                flex-direction: column;
+            }
+
+            .card h1 {
+                font-size: 1.8em; /* Decrease font size for mobile */
+                line-height: 1.3; /* Adjust line height for better spacing */
+                padding: 10px 20px; /* Extra padding to prevent text from being too close to edges */
+                max-width: 100%; /* Ensure text uses full width */
+                margin: 0 auto; /* Center the text block */
+                text-align: justify; /* Justify text on mobile too */
+            }
+        }
+
+        /* Footer */
+        footer {
+            background-color: black;
+            font-size: 0.9em;
+            color: #ccc;
+            text-align: center; /* Center footer text */
+        }
+    </style>
+</head>
+<body style="font-family: 'Poppins', sans-serif; background-color: rgb(228, 209, 189);">
+
+<!-- Header -->
+<header class="bg-light shadow-sm fixed-top d-flex justify-content-center py-3">
+    <img src="assets/images/logo.png" alt="Hair Deco London Logo" class="logo">
+</header>
+
+<!-- Main Section -->
+<section id="intro" class="d-flex align-items-center justify-content-center text-center vh-100">
+    <div class="card shadow-lg" data-aos="fade-in">
+        <h1 class="display-4 fw-bold text-white">
+            “ Hair Deco London: Elegance Meets Effortless Beauty. Unleash Your Individuality with Our Premium Wigs and Hair Extensions and Indulge in Our Exclusive Services to Complete a Unique Style – Launching Soon. „
+        </h1>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-3">
+    <p>All rights reserved © 2024 Hair Deco London.</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script>
+    AOS.init(); // Initialize AOS animations
+</script>
+</body>
+</html>

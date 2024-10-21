@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - Hair Deco London</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body style="font-family: 'Poppins', sans-serif;">
+<!-- Header -->
+<header class="bg-light shadow-sm fixed-top">
+  <div class="container d-flex align-items-center justify-content-between py-3">
+    <img src="assets/images/logo.png" alt="Hair Deco London Logo" class="logo">
+    <nav>
+      <a href="index.html" class="px-3 text-dark">Home</a>
+      <a href="contact.html" class="px-3 text-dark">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<!-- Contact Form Section -->
+<section id="contact-section" class="vh-100 d-flex align-items-center justify-content-center bg-light">
+  <div class="container bg-white shadow rounded p-5" style="max-width: 500px;">
+    <h2 class="text-center fw-bold text-pink mb-4">Contact Us</h2>
+    <form id="contactForm">
+      <div class="mb-3">
+        <label for="name" class="form-label">Name*</label>
+        <input type="text" id="name" name="name" class="form-control" required>
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Email*</label>
+        <input type="email" id="email" name="email" class="form-control" required>
+      </div>
+      <div class="mb-3">
+        <label for="phone" class="form-label">Phone*</label>
+        <input type="tel" id="phone" name="phone" class="form-control" required>
+      </div>
+      <div class="mb-3">
+        <label for="message" class="form-label">Message*</label>
+        <textarea id="message" name="message" class="form-control" rows="4" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-pink w-100">Send Message</button>
+      <!-- Message Display Area -->
+      <div id="formMessage" style="display: none; margin-top: 10px; font-weight: bold;"></div>
+    </form>
+  </div>
+</section>
+
+
+<!-- Footer -->
+<footer class="footer bg-dark text-white py-5">
+  <div class="container">
+    <div class="row text-center text-md-start">
+      <div class="col-md-4 mb-3 mb-md-0">
+        <h5 class="text-uppercase fw-bold">Contact Us</h5>
+        <p><a href="contact.html" class="text-white">Get in Touch</a></p>
+      </div>
+      <div class="col-md-4 mb-3 mb-md-0">
+        <h5 class="text-uppercase fw-bold">Follow Us</h5>
+        <p><a href="#" class="text-white me-2">Facebook</a> | <a href="#" class="text-white">Instagram</a></p>
+      </div>
+      <div class="col-md-4">
+        <h5 class="text-uppercase fw-bold">Reach Out</h5>
+        <p>Phone: +44 7774 810345</p>
+        <p>Email: support@hairdecolondon.com</p>
+      </div>
+    </div>
+    <hr class="border-light">
+    <p class="text-center mt-3">All rights reserved © 2024 Hair Deco London. Where Beauty Meets Elegance.</p>
+  </div>
+</footer>
+
+<script src="js/scripts.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
